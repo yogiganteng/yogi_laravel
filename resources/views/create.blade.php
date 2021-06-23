@@ -36,13 +36,13 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Harga:</strong>
-                <textarea class="form-control" style="height:150px" name="harga" placeholder="harga"></textarea>
+                <input type="text" name="harga" class="form-control" placeholder="Harga">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Stok:</strong>
-                <textarea class="form-control" style="height:150px" name="stock" placeholder="stock"></textarea>
+                <input type="stock" name="nama_produk" class="form-control" placeholder="Stock">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">

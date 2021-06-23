@@ -16,13 +16,19 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Name:</strong>
-                {{ $product->name }}
+                {{ $product->nama_produk }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Details:</strong>
-                {{ $product->detail }}
+                <strong>Harga:</strong>
+                {{ $product->harga }}
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>stock:</strong>
+                {{ $product->stock }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
