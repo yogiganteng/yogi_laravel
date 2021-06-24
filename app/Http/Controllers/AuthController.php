@@ -70,14 +70,14 @@ class AuthController extends Controller
     public function register(Request $request)
     {
         $rules = [
-            'nama_produk'                  => 'required|min:3|max:35',
+            'nama'                  => 'required|min:3|max:35',
             'email'                 => 'required|email|unique:users,email',
             'password'              => 'required|confirmed'
         ];
   
         $messages = [
-            'nama_produk.required'         => 'Nama Lengkap wajib diisi',
-            'nama_produk.min'              => 'Nama lengkap minimal 3 karakter',
+            'nama.required'         => 'Nama Lengkap wajib diisi',
+            'nama.min'              => 'Nama lengkap minimal 3 karakter',
             'nama.max'              => 'Nama lengkap maksimal 35 karakter',
             'email.required'        => 'Email wajib diisi',
             'email.email'           => 'Email tidak valid',
